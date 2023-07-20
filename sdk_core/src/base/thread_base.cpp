@@ -24,7 +24,7 @@
 
 #include "thread_base.h"
 #include <thread>
-
+#include <memory>
 namespace livox {
 
 ThreadBase::ThreadBase() : quit_(false), is_thread_valid_(false) {}
